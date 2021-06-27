@@ -5,7 +5,7 @@ using Factory = FactoryController;
 
 public class BulletController : Rigidbody2DBase, IPoolableObject
 {
-    private float speed = 9f;
+    private float speed = 10f;
     private float distance = 2f;
     public int Damage { get; protected set; }
     private Vector2 startPosition;
